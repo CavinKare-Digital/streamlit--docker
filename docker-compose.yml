@@ -1,0 +1,31 @@
+#version: '3'
+#
+#services:
+#
+#  streamlit:
+#    image: streamlit
+#    ports:
+#      - 8080:8080
+#
+#
+##  nginx:
+###    restart: always
+##    image: "nginx:latest"
+##    ports:
+##      - "85:85"
+##    volumes:
+##      - ./nginx:/etc/nginx/conf.d
+##    depends_on:
+##      - streamlit
+##
+#
+##
+#  apache:
+#    image: httpd:2.4.43-alpine
+#    ports:
+#      - 80:80
+#      - 443:443
+#    volumes:
+#      - ./scripts/httpd.conf:/usr/local/apache2/conf/httpd.conf
+#
+#
