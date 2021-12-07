@@ -1,11 +1,11 @@
-#version: '3'
+version: '3'
 #
-#services:
+services:
 #
-#  streamlit:
-#    image: streamlit
-#    ports:
-#      - 8080:8080
+  streamlit:
+    image: stapp
+    ports:
+      - 8080:8080
 #
 #
 ##  nginx:
